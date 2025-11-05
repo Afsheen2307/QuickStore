@@ -42,7 +42,8 @@ Filter: Use the dropdown to show only specific platforms
 Copy: Click the copy icon to copy link to clipboard
 Delete: Click the trash icon to remove a link
 
-Browser Compatibility 🌐
+Browser Compatibility 
+
 Works on all modern browsers:
 
 Chrome/Edge (recommended)
@@ -51,7 +52,8 @@ Safari
 Opera
 
 Note: Requires JavaScript and localStorage to be enabled.
-Data Storage 💾
+Data Storage 
+
 All your links are stored locally in your browser using localStorage:
 
 Data persists across sessions
@@ -59,7 +61,7 @@ No server or cloud storage required
 Data stays on your device only
 Clear browser data will delete saved links
 
-Contributing 🤝
+Contributing 
 Feel free to fork this project and submit pull requests for:
 
 Bug fixes
