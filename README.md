@@ -46,4 +46,4 @@ Rendered through React components
 
 Icon library for visual elements (Instagram, YouTube, Search, Trash icons, etc.
 In summary: It's primarily a React + JavaScript application styled with Tailwind CSS. React handles all the functionality (adding, deleting, searching links), while Tailwind makes it look beautiful and responsive.
-The app also uses the browser's storage API (provided by the Claude artifacts environment) to save your links permanently.RetryClaude c
+The app also uses the browser's storage API (provided by the Claude artifacts environment) to save your links.
