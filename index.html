@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickStore — Link Diary</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="welcome-screen" class="center-box">
+    <h1>QuickStore</h1>
+    <p class="subtitle">Your personal link diary — keep all your favorite links in one place.</p>
+    <input type="text" id="username-input" placeholder="Enter your name..." />
+    <button id="start-btn">Start</button>
+  </div>
+
+  <div id="main-app" class="hidden">
+    <header class="topbar">
+      <h2>QuickStore</h2>
+      <div class="top-actions">
+        <span id="user-name-display"></span>
+        <button id="logout-btn">Logout</button>
+      </div>
+    </header>
+
+    <section class="main">
+      <aside class="sidebar">
+        <h3>Add New Link</h3>
+        <form id="link-form">
+          <input type="text" id="title" placeholder="Title" required />
+          <input type="url" id="url" placeholder="https://example.com" required />
+          <select id="category">
+            <option value="Books">Books</option>
+            <option value="GitHub">GitHub</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="Other">Other</option>
+          </select>
+          <textarea id="notes" placeholder="Notes (optional)"></textarea>
+          <button type="submit" class="primary-btn">Save Link</button>
+        </form>
+      </aside>
+
+      <main class="content">
+        <div class="toolbar">
+          <input type="text" id="search" placeholder="Search links..." />
+          <select id="filter">
+            <option value="All">All</option>
+            <option value="Books">Books</option>
+            <option value="GitHub">GitHub</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <ul id="link-list" class="link-list"></ul>
+        <p id="empty-msg">No links yet — add some from the sidebar.</p>
+      </main>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
